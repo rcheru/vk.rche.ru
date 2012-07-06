@@ -1,0 +1,46 @@
+/**
+ *
+ * CMS osRealty 2.1.x
+ * Autor: Roman Chernyshov
+ * E-mail: support@osRealty.ru
+ * URL: www.osRealty.ru
+ *
+ */
+
+.pagenation {
+	color: #636363; 
+	border: 0px;
+	font-family: tahoma;
+}
+
+.pagenation a:link,
+.pagenation a:visited,
+.pagenation a:active {
+	display: inline;
+	text-decoration: none;
+	color: #333;
+	background-color: #AFCCE4;
+	border: 1px solid #ddd;
+	padding: 3px 6px;
+	font-size: 11px
+}
+
+.pagenation a:hover {
+	display: inside;
+	background-color: #696969;
+	color: #FFF;
+	border-color: #ddd;
+}
+
+.pagenation span {
+	text-decoration: none;
+	background-color: #696969;
+	padding: 3px 6px;
+	border: 1px solid #ddd;
+	color: #fff;
+	font-size: 11px;
+}
+.pagenation span.nav_ext {
+	border: none;
+	background: transparent;
+}

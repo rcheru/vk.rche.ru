@@ -1,0 +1,39 @@
+﻿/**
+ *
+ * CMS osRealty 2.1.x
+ * Autor: Roman Chernyshov
+ * E-mail: support@osRealty.ru
+ * URL: www.osRealty.ru
+ *
+ */
+
+.hide{ /* скрываем вкладку */
+	display:none;
+	clear:both;
+}
+.show{ /* показываем вкладку */
+	display:block;
+	clear:both;
+}
+.nonactive{ /* неактивная вкладка */
+	background-color:#fff;
+	cursor:pointer;
+	color:#3794DA;
+	padding:3px;
+	font: 11px Tahoma;
+	float:left;
+	border:1px solid #E7EFF5;
+	width:90px;
+	text-align:center;
+}
+.active{ /* активная вкладка */
+	border:1px solid #E7EFF5;
+	background-color:#E7EFF5;
+	cursor:default;
+	width:90px;
+	padding:3px;
+	color:#232627;
+	font: 11px Tahoma;
+	float:left;
+	text-align:center;
+}
